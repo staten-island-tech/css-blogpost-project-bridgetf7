@@ -1,0 +1,39 @@
+/*background colour-all*/
+body {
+    background-color: #efe3d3;
+}
+
+/*big title text*/
+.mainheader {
+    margin: 30px;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #8c5a3c;
+    position: relative;
+}
+
+/* image properties for ALL images */
+img {
+    width: 350px;
+    margin: 30px;
+    margin-top: 0%;
+    margin-right: 50px;
+}
+
+/*post properties*/
+.miniheader {
+    font-size: 30px;
+    margin: 30px;
+    margin-top: 0%;
+}
+
+.paragraph {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    margin-top: 10px;
+
+
+}
