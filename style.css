@@ -6,7 +6,7 @@ body {
 /*big title text*/
 .mainheader {
     margin: 30px;
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Playfair Display', serif;
     text-align: center;
     letter-spacing: 2px;
@@ -14,26 +14,38 @@ body {
     position: relative;
 }
 
-/* image properties for ALL images */
+/*posts*/
+.container-a,
+.container-b,
+.container-c {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.image-a,
+.image-b,
+.image-c {
+    flex-basis: 40%
+}
+
+.headtext-a,
+.headtext-b,
+.headtext-c {
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.text-a,
+.text-b,
+.text-c {
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
 img {
     width: 350px;
     margin: 30px;
-    margin-top: 0%;
-    margin-right: 50px;
-}
-
-/*post properties*/
-.miniheader {
-    font-size: 30px;
-    margin: 30px;
-    margin-top: 0%;
-}
-
-.paragraph {
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    margin: 30px;
-    margin-top: 10px;
-
-
 }
