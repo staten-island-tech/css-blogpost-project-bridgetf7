@@ -15,37 +15,26 @@ body {
 }
 
 /*posts*/
-.container-a,
-.container-b,
-.container-c {
+.container {
     display: flex;
     align-items: center;
     justify-content: center
 }
 
-.image-a,
-.image-b,
-.image-c {
-    flex-basis: 40%
-}
-
-.headtext-a,
-.headtext-b,
-.headtext-c {
-    font-size: 20px;
-    padding-left: 20px;
-    font-family: 'Playfair Display', serif;
-}
-
-.text-a,
-.text-b,
-.text-c {
-    font-size: 20px;
-    padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
-}
-
 img {
     width: 350px;
     margin: 30px;
+    flex-basis: 40%
+}
+
+p {
+    font-size: 20px;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    padding-left: 30px;
+    font-family: 'Playfair Display', serif;
 }
