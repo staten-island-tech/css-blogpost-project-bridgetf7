@@ -16,9 +16,25 @@ body {
 
 /*posts*/
 .container {
+    border: #8c5a3c 2px solid;
     display: flex;
     align-items: center;
     justify-content: center
+}
+
+.container-a,
+.container-b,
+.container-c {
+    border: #8c5a3c 2px solid;
+    margin-top: 30px;
+}
+
+* {
+    align-items: center;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 10px;
 }
 
 img {
@@ -37,4 +53,11 @@ h1 {
     font-size: 35px;
     padding-left: 30px;
     font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    color: blue;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
 }
